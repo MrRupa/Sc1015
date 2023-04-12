@@ -8,8 +8,8 @@ Group:
 Members:
 	
 	1.Ruparaj
-2. Quang 
-3. Vu
+	2. Quang 
+	3. Vu
 
 Description:
 
@@ -29,5 +29,6 @@ Our Question: Using Gender, Average Glucose level and BMI(body max index) to det
 
 2.Data Preparation and cleaning
 The variables: Gender, Average Glucose level and BMI(body max index)
+
 
 
