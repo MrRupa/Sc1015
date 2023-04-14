@@ -19,15 +19,18 @@ Group:
 ### Table of Contents:
 1. Problem Formulation
 2. [Data Extraction and Resampling](https://github.com/MrRupa/Sc1015/blob/37de7f199fd46d94c51e8990c349ad3687513222/Data%20Exraction%20and%20resampling.ipynb)
-3. Data Visualisation
-4. Data Splitting
+3. [Data Visualisation](https://github.com/MrRupa/Sc1015/blob/9aacca324845dfc257022e55c3744d9d48aa04c0/Data%20Exraction%20and%20resampling.ipynb)
+4. [Data Splitting]
 5. Logistic Regression
 6. Neural Network
 
 
 ### 1.  Problem Formulation
 Our DataSet: Stroke Prediction Dataset | Kaggle 
-Our Question: Using Gender, Average Glucose level and BMI(body max index) to determine the percentage of getting stroke(rephrase)
+Our Question: 
+- Can we predict stroke based on the attributes in dataset
+- Which models would perform best in predicting the occurrence of having stroke
+
 
 ### 2.Data Extraction and Resampling
 The variables: Gender, Average Glucose level and BMI(body max index)
