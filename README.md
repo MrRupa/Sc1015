@@ -1,8 +1,11 @@
 # SC1015: Data Science Mini Project - Stroke Prediction
 
 School of Computer Science and Engineering
-Nayang Technological University 
+
+Nanyang Technological University
+
 Lab: A140
+
 Group:
 
 ## Members:
