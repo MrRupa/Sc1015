@@ -14,6 +14,9 @@ Group:
 2. Quang - @Quangdo0
 3. Vu - @VuTheAmser
 
+## About our project
+The project of Data Science and Artificial Intelligence (SC1015) using stroke dataset in Kaggle (https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset) to explore and predict the occurence of stroke using attributes from dataset and models
+
 ## Description:
 
 ### Table of Contents:
@@ -33,7 +36,6 @@ Our Question:
 
 
 ### 2.Data Extraction and Resampling
-The variables: Gender, Average Glucose level and BMI(body max index)
 
 ### 3. Data Visualisation
 
@@ -47,6 +49,7 @@ The variables: Gender, Average Glucose level and BMI(body max index)
 ## Conclusion
 
 ## What did we learn from this project?
+
 
 ## References
 
