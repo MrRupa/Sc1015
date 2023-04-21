@@ -10,9 +10,9 @@ Group:
 
 ## Members:
 	
-1. Ruparaj - @MrRupa
-2. Quang - @Quangdo0
-3. Vu - @VuTheAmser
+1. Ruparaj - [@MrRupa](https://github.com/MrRupa)
+2. Quang - [@Quangdo0](https://github.com/Quangdo0)
+3. Vu - [@VuTheAmser](https://github.com/VuTheAmser)
 
 ## About our project
 The project of Data Science and Artificial Intelligence (SC1015) using stroke dataset in Kaggle (https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset) to explore and predict the occurence of stroke using attributes from dataset and models
