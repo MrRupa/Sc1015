@@ -36,6 +36,11 @@ Our Question:
 
 
 ### 2.Data Extraction and Resampling
+First, our journey start with collecting the dataset from Kaggle and began the data preparation process by examining the variables and cleaning the data.
+
+We then resampled the data for better understanding and analysis. By categorized the "age", "avg_glucose_level", and "BMI" we can further analysize which targeted group will have highest percentage of occurrence of having stroke.
+
+This will help us in actual implementation of our logistic regression model and evaluate its performance.
 
 
 ### 3. Data Visualisation
@@ -46,6 +51,8 @@ Additionally, we visualize the stroke count by each categorical variable using b
 
 We also calculate the frequency of different types of variables and visualize the proportion of strokes by each categorical variable using bar plots.
 And Lastly, we use the chi-squared test to determine if there is a significant association between the categorical variables and stroke outcomes. The p-values help us understand the significance of these associations.This data visualization and analysis parts provides an in-depth understanding of the stroke dataset, the relationships between various factors, and the potential implications of these factors on stroke outcomes.
+
+
 
 ### 4. Data Splitting
 In this section, we performed, defined the numerical variable to meet the requiremrnt of the neural network. 
