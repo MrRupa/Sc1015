@@ -29,6 +29,7 @@ The project of Data Science and Artificial Intelligence (SC1015) using stroke da
 
 
 ### 1.  Problem Formulation
+
 Our DataSet: Stroke Prediction Dataset | Kaggle 
 Our Question: 
 - Can we predict stroke based on the attributes in dataset
@@ -36,7 +37,8 @@ Our Question:
 
 
 ### 2.Data Extraction and Resampling
-First, our journey start with collecting the dataset from Kaggle and began the data preparation process by examining the variables and cleaning the data.
+
+We were collect the dataset from Kaggle and began the data preparation process by examining the variables and cleaning the data.
 
 We then resampled the data for better understanding and analysis. By categorized the "age", "avg_glucose_level", and "BMI" we can further analysize which targeted group will have highest percentage of occurrence of having stroke.
 
@@ -55,6 +57,7 @@ And Lastly, we use the chi-squared test to determine if there is a significant a
 
 
 ### 4. Data Splitting
+
 In this section, we performed, defined the numerical variable to meet the requiremrnt of the neural network. 
 we use the train_test_split to split the data of 80% train and 20% test and assigned the train dataset to do data sampling for the four models:
 - Original
@@ -78,6 +81,19 @@ In summary, we manage derive an equation that would calculate a person's probabi
 
 
 ### 6. Neural Network
+
+Neural networks are used for stroke prediction by training the network on a dataset of individuals with known stroke outcomes and their corresponding predictor variables. Neural networks can capture complex non-linear relationships between the predictor variables and the stroke outcome, and can automatically learn relevant features from the input data.
+
+1) The dataset is divided into a training set and a testing set. 
+2) The neural network is trained on the training set using a loss function and an optimization algorithm. The loss function measures the difference between the predicted stroke outcomes and the true stroke outcomes, and the optimization algorithm adjusts the weights and biases of the neurons to minimize this difference. During training, the performance of the neural network is evaluated on the validation set, and the hyperparameters of the network like the number of epochs are adjusted to improve its performance. 
+3) The performance of the trained neural network is evaluated on the testing set, using metrics such as accuracy, sensitivity, specificity, and AUC-ROC. 
+4) Comparing the performance of different resampling methods for training and testing neural networks where it involves repeating the training and testing process 100 times and counting the number of times each resampling method "wins" in terms of achieving the best performance on the test set.
+
+This approach is a good way to evaluate the effectiveness of different resampling methods and to account for the stochasticity of neural network training. By repeating the process multiple times, we can obtain a more robust estimate of the performance of each resampling method and reduce the impact of random variations in the results.
+
+Based on the results obtained after multiple iterations, it appears that the SMOTEENN resampling method performs the best when trying to maximize recall in stroke prediction. Recall is a metric that measures the proportion of true positive cases that are correctly identified by the model, and it is particularly important in medical screening and diagnosis where missing a positive case can have serious consequences.  The resulting dataset is balanced and less noisy, which can improve the performance of the neural network in predicting strokes. Therefore, based on the evaluation of the resampling methods, using SMOTEENN when trying to maximize recall in stroke prediction seems to be a promising approach. 
+
+In summary, neural networks are a type of machine learning algorithm that can be used for stroke prediction by training the network on a dataset of individuals with known stroke outcomes and their corresponding predictor variables. 
 
 
 ## Conclusion
