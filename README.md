@@ -93,16 +93,24 @@ This approach is a good way to evaluate the effectiveness of different resamplin
 
 Based on the results obtained after multiple iterations, it appears that the SMOTEENN resampling method performs the best when trying to maximize recall in stroke prediction. Recall is a metric that measures the proportion of true positive cases that are correctly identified by the model, and it is particularly important in medical screening and diagnosis where missing a positive case can have serious consequences.  The resulting dataset is balanced and less noisy, which can improve the performance of the neural network in predicting strokes. Therefore, based on the evaluation of the resampling methods, using SMOTEENN when trying to maximize recall in stroke prediction seems to be a promising approach. 
 
-In summary, neural networks are a type of machine learning algorithm that can be used for stroke prediction by training the network on a dataset of individuals with known stroke outcomes and their corresponding predictor variables. 
-
-
-## Conclusion
+## Conclusion 	
+- From the highly correlated variables(hypertension ,smokers who smoke, AgeGroup between 40-80, GlucoseLevelRange_150-250+ and BMIGroup_Underweight) , we can predict the probability of getting stroke.
+- We choose the resampling method based on the recall factor which have the highest compared to the resampled method.
+- Logistic Regression consistently did well in predicting the probability of getting stroke with around 74% accuracy (around 76% Sensitivity, 74% Specificity)
+= Neural Networks along with SMOTEENN resampling method did not perform well in predicting the stroke probability after 100 training attempts (around 50% accuracy, 80% recall)
+= Yes, it is possible to predict the probability of getting stroke with acceptable amount of accuracy, sensitivity and specificity.
 
 ## What did we learn from this project?
+- We found ways to deal with imbalanced datasets by using resampling methods, which can be implemented using the imblearn package. 
+- We learn about the predictive models tools for building Neural Networks, Keras, and Tensorflow. 
+- Logistic Regression from the sklearn package can be used for classification tasks. 
+- Collaborating on a project can be done through GitHub. 
+- We understand concepts such as Precision, Recall, and F1 Score, as they are crucial evaluation metrics in classification tasks.
+
 
 
 ## References
 
-
-
+- https://github.com/nicklimmm/movie-analysis
+- 
 
