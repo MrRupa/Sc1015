@@ -112,5 +112,5 @@ Based on the results obtained after multiple iterations, it appears that the SMO
 ## References
 
 - https://github.com/nicklimmm/movie-analysis
-- 
+- https://github.com/fenix4dev/StrokePrediction_ML/blob/main/Stroke%2BPrediction.ipynb
 
