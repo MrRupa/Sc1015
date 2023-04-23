@@ -97,6 +97,7 @@ Based on the results obtained after multiple iterations, it appears that the SMO
 - We choose the resampling method based on the recall factor which have the highest compared to the resampled method.
 - Logistic Regression consistently did well in predicting the probability of getting stroke with around 74% accuracy (around 76% Sensitivity, 74% Specificity).
 - Neural Networks along with SMOTEENN resampling method did not perform well in predicting the stroke probability after 100 training attempts (around 50% accuracy, 80% recall)
+
 Therefore: Yes, it is possible to predict the probability of getting stroke with acceptable amount of accuracy, sensitivity and specificity.
 
 ## What did we learn from this project?
