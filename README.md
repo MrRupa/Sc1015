@@ -113,4 +113,12 @@ Based on the results obtained after multiple iterations, it appears that the SMO
 
 - https://github.com/nicklimmm/movie-analysis
 - https://github.com/fenix4dev/StrokePrediction_ML/blob/main/Stroke%2BPrediction.ipynb
-
+- https://towardsdatascience.com/building-our-first-neural-network-in-keras-bdc8abbc17f5
+- https://www.geeksforgeeks.org/derivative-of-the-sigmoid-function/
+- https://machinelearningmastery.com/precision-recall-and-f-measure-for-imbalanced-classification/
+- https://vitalflux.com/accuracy-precision-recall-f1-score-python-example/
+- https://morioh.com/p/bb492dfe3c00
+- https://www.jeremyjordan.me/imbalanced-data/
+- https://meettank29067.medium.com/performance-measurement-in-logistic-regression-8c9109b25278
+- https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5
+- https://www.datacamp.com/tutorial/github-and-git-tutorial-for-beginners?utm_source=google&utm_medium=paid_search&utm_campaignid=19589720821&utm_adgroupid=143216588577&utm_device=c&utm_keyword=&utm_matchtype=&utm_network=g&utm_adpostion=&utm_creative=655068781125&utm_targetid=aud-392016246653:dsa-1947282172981&utm_loc_interest_ms=&utm_loc_physical_ms=9062512&utm_content=dsa~page~community-tuto&utm_campaign=230119_1-sea~dsa~tutorials_2-b2c_3-row-p1_4-prc_5-na_6-na_7-le_8-pdsh-go_9-na_10-na_11-na-aprfs23&gclid=Cj0KCQjwi46iBhDyARIsAE3nVrarNDc_pDk_E_d0DjcczzFqb7QzeqbhUEUZ73PpTuq6DqZ0FffCbfIaAi_wEALw_wcB
