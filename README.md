@@ -38,9 +38,9 @@ Our Question:
 
 ### 2.Data Extraction and Resampling
 
-We were collect the dataset from Kaggle and began the data preparation process by examining the variables and cleaning the data.
+We collected the dataset from Kaggle and began the data preparation process by examining the variables and cleaning the data.
 
-We then resampled the data for better understanding and analysis. By categorized the "age", "avg_glucose_level", and "BMI" we can further analysize which targeted group will have highest percentage of occurrence of having stroke.
+We then resampled the data for better understanding and analysis. By categorising the "age", "avg_glucose_level", and "BMI", we can further analyse which targeted group will have highest percentage of occurrence of having stroke.
 
 This will help us in actual implementation of our logistic regression model and evaluate its performance.
 
@@ -52,20 +52,19 @@ We visualize the distribution of the stroke outcome variable in a bar chart, whi
 Additionally, we visualize the stroke count by each categorical variable using bar charts and calculate the probability of having a stroke within each unique variable and display the results. This helps us understand the association between each variable and the likelihood of experiencing a stroke.
 
 We also calculate the frequency of different types of variables and visualize the proportion of strokes by each categorical variable using bar plots.
+
 And Lastly, we use the chi-squared test to determine if there is a significant association between the categorical variables and stroke outcomes. The p-values help us understand the significance of these associations.This data visualization and analysis parts provides an in-depth understanding of the stroke dataset, the relationships between various factors, and the potential implications of these factors on stroke outcomes.
-
-
 
 ### 4. Data Splitting
 
-In this section, we performed, defined the numerical variable to meet the requiremrnt of the neural network. 
-we use the train_test_split to split the data of 80% train and 20% test and assigned the train dataset to do data sampling for the four models:
+In this section, we performed and defined the numerical variable to meet the requiremrnt of the neural network. 
+We use the train_test_split to split the data of 80% train and 20% test and assigned the train dataset to do data sampling for the four models:
 - Original
 - Random Oversampling 
 - SMOTETomek Resampling
 - SMOTEENN Resampling
 
-we save all the resampled data in test.csv file accordingly.
+we save all the resampled data in each .csv file accordingly.
 
 ### 5. Logistic Regression
 
@@ -74,10 +73,10 @@ In this section we used Logistic Regression model which is a statistical model u
 We divided the dataset into a training set and a testing set. The logistic regression model is trained on the training set, and its performance is evaluated on the testing set. The performance of the logistic regression model are evaluated using metrics:
 - Accuracy
 - Sensitivity
-- Specificity,
-- Area under the receiver operating characteristic curve (AUC-ROC). 
+- Specificity
+- Area under the receiver operating characteristic curve (AUC-ROC)
 
-In summary, we manage derive an equation that would calculate a person's probability of getting stroke using Logistic Regression Model
+In summary, we manage derive an equation that would calculate a person's probability of getting stroke using Logistic Regression Model.
 
 
 ### 6. Neural Network
@@ -94,11 +93,11 @@ This approach is a good way to evaluate the effectiveness of different resamplin
 Based on the results obtained after multiple iterations, it appears that the SMOTEENN resampling method performs the best when trying to maximize recall in stroke prediction. Recall is a metric that measures the proportion of true positive cases that are correctly identified by the model, and it is particularly important in medical screening and diagnosis where missing a positive case can have serious consequences.  The resulting dataset is balanced and less noisy, which can improve the performance of the neural network in predicting strokes. Therefore, based on the evaluation of the resampling methods, using SMOTEENN when trying to maximize recall in stroke prediction seems to be a promising approach. 
 
 ## Conclusion 	
-- From the highly correlated variables(hypertension ,smokers who smoke, AgeGroup between 40-80, GlucoseLevelRange_150-250+ and BMIGroup_Underweight) , we can predict the probability of getting stroke.
+- From the highly correlated variables(hypertension, smokers who smoke, AgeGroup between 40-80, GlucoseLevelRange_150-250+ and BMIGroup_Underweight), we can predict the probability of getting stroke.
 - We choose the resampling method based on the recall factor which have the highest compared to the resampled method.
-- Logistic Regression consistently did well in predicting the probability of getting stroke with around 74% accuracy (around 76% Sensitivity, 74% Specificity)
-= Neural Networks along with SMOTEENN resampling method did not perform well in predicting the stroke probability after 100 training attempts (around 50% accuracy, 80% recall)
-= Yes, it is possible to predict the probability of getting stroke with acceptable amount of accuracy, sensitivity and specificity.
+- Logistic Regression consistently did well in predicting the probability of getting stroke with around 74% accuracy (around 76% Sensitivity, 74% Specificity).
+- Neural Networks along with SMOTEENN resampling method did not perform well in predicting the stroke probability after 100 training attempts (around 50% accuracy, 80% recall)
+Therefore: Yes, it is possible to predict the probability of getting stroke with acceptable amount of accuracy, sensitivity and specificity.
 
 ## What did we learn from this project?
 - We found ways to deal with imbalanced datasets by using resampling methods, which can be implemented using the imblearn package. 
@@ -106,8 +105,6 @@ Based on the results obtained after multiple iterations, it appears that the SMO
 - Logistic Regression from the sklearn package can be used for classification tasks. 
 - Collaborating on a project can be done through GitHub. 
 - We understand concepts such as Precision, Recall, and F1 Score, as they are crucial evaluation metrics in classification tasks.
-
-
 
 ## References
 
