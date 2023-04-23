@@ -64,7 +64,7 @@ We use the train_test_split to split the data of 80% train and 20% test and assi
 - SMOTETomek Resampling
 - SMOTEENN Resampling
 
-we save all the resampled data in each .csv file accordingly.
+We save all the resampled data in each .csv file accordingly.
 
 ### 5. Logistic Regression
 
