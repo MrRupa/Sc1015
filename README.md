@@ -24,8 +24,8 @@ The project of Data Science and Artificial Intelligence (SC1015) using stroke da
 2. [Data Extraction and Resampling](https://github.com/MrRupa/Sc1015/blob/37de7f199fd46d94c51e8990c349ad3687513222/Data%20Exraction%20and%20resampling.ipynb)
 3. [Data Visualisation](https://github.com/MrRupa/Sc1015/blob/9aacca324845dfc257022e55c3744d9d48aa04c0/Data%20Exraction%20and%20resampling.ipynb)
 4. [Data Splitting](https://github.com/MrRupa/Sc1015/blob/main/Data%20Splitting.ipynb)
-5. [Logistic Regression](https://github.com/MrRupa/Sc1015/blob/main/Logestic%20regression.ipynb)
-6. [Neural Network](https://github.com/MrRupa/Sc1015/blob/main/Neural%20Networks-Copy1.ipynb)
+5. [Logistic Regression](https://github.com/MrRupa/Sc1015/blob/main/Logistic%20regression.ipynb)
+6. [Neural Network](https://github.com/MrRupa/Sc1015/blob/main/Neural%20Network.ipynb)
 
 
 ### 1.  Problem Formulation
