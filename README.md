@@ -90,8 +90,6 @@ Neural networks are used for stroke prediction by training the network on a data
 
 This approach is a good way to evaluate the effectiveness of different resampling methods and to account for the stochasticity of neural network training. By repeating the process multiple times, we can obtain a more robust estimate of the performance of each resampling method and reduce the impact of random variations in the results.
 
-Based on the results obtained after multiple iterations, it appears that the SMOTEENN resampling method performs the best when trying to maximize recall in stroke prediction. Recall is a metric that measures the proportion of true positive cases that are correctly identified by the model, and it is particularly important in medical screening and diagnosis where missing a positive case can have serious consequences.  The resulting dataset is balanced and less noisy, which can improve the performance of the neural network in predicting strokes. Therefore, based on the evaluation of the resampling methods, using SMOTEENN when trying to maximize recall in stroke prediction seems to be a promising approach. 
-
 ## Conclusion 	
 - From the highly correlated variables(hypertension, smokers who smoke, AgeGroup between 40-80, GlucoseLevelRange_150-250+ and BMIGroup_Underweight), we can predict the probability of getting stroke.
 - We choose the resampling method based on the recall factor which have the highest compared to the resampled method.
